@@ -1,38 +1,43 @@
-# Book Management App - Full Stack Developer Home Assignment
+# 🛠️ Book Management - Backend
 
-## Overview
-This assignment is designed to evaluate your skills as a full stack developer. You will be tasked with developing a Book Management Application that allows users to manage their book collection effectively.
+**This is the backend for the **Book Management ** application, which provides **authentication, loggin stores user book list, user can edit, delete and add new books**.
 
-## Requirements
-- **Frontend**: Create a user-friendly interface that allows users to:
-  - Add new books to their collection
-  - Edit existing book details
-  - Delete books from their collection
-  - View a list of all books in their collection
+## 📌 Features
+- ✅ JWT-based **authentication & authorization**
+- ✅ MongoDB database for **persistent data storage**
+- ✅ Secure API endpoints with **JWT middleware**
 
-- **Backend**: You will be provided with an authentication backend codebase. You are required to integrate this with your application to handle user authentication and authorization.
+---
 
-## Provided Resources
-- **Auth Backend Codebase**: The company has provided a pre-built authentication backend. You will need to familiarize yourself with this codebase and integrate it into your application.
+## 🚀 Installation & Setup
 
-## Technical Specifications
-- **Frontend Framework**: You may use any modern JavaScript framework (e.g., React, Angular, Vue.js).
-- **Backend**: You can choose to use Node.js, Express, or any other backend technology you are comfortable with.
-- **Database**: Use a database of your choice (e.g., MongoDB, PostgreSQL) to store book information.
+### **  Clone the Repository**
+git clone https://github.com/your-repo-url.git
+cd backend
 
-## Submission Guidelines
-- Please submit your code in a public GitHub repository.
-- Include a README file that explains how to set up and run your application.
-- Ensure your code is well-documented and follows best practices.
+# 1. Install Dependencies
+npm install
 
-## Evaluation Criteria
-- Code quality and organization
-- User interface design and usability
-- Proper integration of the authentication backend
-- Functionality and completeness of the application
+# 2. Set Up Environment Variables
+Create a .env file in the backend root directory:
 
-## Deadline
-Please submit your completed assignment by 7 days.
+NODE_ENV=development
 
-## Good Luck!
-We look forward to seeing your work and how you approach this assignment!
+PORT=5000
+
+MONGODB_URI=your-mongodb-string
+
+JWT_SECRET=your-secret-key
+
+# 3. Run the Server
+npm run dev
+The server runs on http://localhost:5000.
+
+## 🛠 Built With
+Node.js - Backend runtime
+
+Express.js - API framework
+
+MongoDB - Lightweight database
+
+jsonwebtoken - Secure authentication
