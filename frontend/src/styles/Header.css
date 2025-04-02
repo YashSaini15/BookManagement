@@ -1,0 +1,65 @@
+.app-header {
+  background: linear-gradient(135deg, #5d9cec, #4a89dc);
+  padding: 1rem 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.app-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.app-header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.app-header nav a:last-child {
+  margin-right: 0;
+}
+
+.app-header nav a:hover {
+  color: #d1e0f0;
+  transform: scale(1.05);
+}
+
+.app-header nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #4a89dc;
+  border: 1px solid #4a89dc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 1rem;
+}
+
+.logout-button:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.05);
+}
+
+.logout-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(74, 137, 220, 0.5);
+}
